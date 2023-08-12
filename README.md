@@ -1,2 +1,1 @@
-# alx_html_css
-ALX projects
+The project is all about html and css
