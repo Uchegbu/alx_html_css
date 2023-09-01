@@ -1,0 +1,1 @@
+This project is focused on building a website with the aid of html structures.
