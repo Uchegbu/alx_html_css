@@ -378,9 +378,9 @@
  } 
 
   /* section services ============================= */ 
-  .section-services .row{
-     flex-wrap: wrap;
-  }
+ .section-services .row{
+    flex-wrap: wrap;
+ }
 
   /*** 4. CARD ***/
   
