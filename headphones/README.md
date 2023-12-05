@@ -1,0 +1,1 @@
+This project is about implement a design from scratch.in this task,website in desktop,tablet and mobile view is implemented.
