@@ -33,8 +33,9 @@ color: #FF6565;
 
 .hero-section{
 text-align: center;
-margin: 100px auto 200px;
+margin: 100px auto 0px;
 max-width: 1000px;
+padding-bottom: 200px;
 }
 
 h1{
@@ -76,4 +77,55 @@ color: white;
 text-transform: lowercase;
 font-weight: 400;
 line-height: 30px;
+}
+
+.section-first{
+display: flex;
+flex-direction: column;
+text-align: center;
+max-width:1000px ;
+margin: 25px auto 30px;
+padding: 10px;
+color: white;
+}
+
+.section-first h2{
+font-size: 18px;
+color: black;
+text-transform: uppercase;
+font-weight: 700;
+padding-bottom: 25px;
+}
+
+.section-first p{
+font-size: 14px;
+color: black;
+font-weight: 400;
+line-height: 20px;
+padding-bottom: 50px;
+}
+
+.item-section{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 1000px;
+margin: 10px auto 100px;
+gap: 40px;
+color: white;
+}
+
+.item-section h4{
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+color: black;
+margin: 10px 0px 15px;
+}
+
+.item-section p{
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+color: black;
 }
