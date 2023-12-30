@@ -1,0 +1,352 @@
+.container{
+    background-image:url(images/headphones_hero_1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    }
+    
+    header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin:0px auto;
+    max-width: 1000px;
+    }
+    
+    .nav-menu{
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    a:hover{
+    color: #FF6565;
+    }
+    
+    .hero-section{
+    text-align: center;
+    margin: 100px auto 0px;
+    max-width: 1000px;
+    padding-bottom: 200px;
+    }
+    
+    h1{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    }
+    
+    .first{
+    font-size: 18px;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+    margin-bottom:40px;
+    } 
+    
+    .hero-button{
+    margin-bottom: 60px;
+    padding: 15px 20px;
+    background-color:  #FF6565;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+    
+    .hero-button:hover{
+    color: white;
+    opacity: 0.9;
+    }
+    
+    .hero-button a{
+    color: white;
+    }
+    
+    .second{
+    font-size: 18px;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+    line-height: 30px;
+    }
+    
+    .section-first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width:1000px ;
+    margin: 25px auto 30px;
+    padding: 10px;
+    color: white;
+    }
+    
+    .section-first h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 25px;
+    }
+    
+    .section-first p{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    }
+    
+    .item-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 10px auto 50px;
+    gap: 40px;
+    color: white;
+    }
+    
+    .item-section h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin: 10px 0px 0px;
+    padding-bottom: 5px;
+    }
+    
+    .item-section p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    }
+
+    .result-container{
+    background-image:url(images/headphones_hero_2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    }
+
+   .result-section{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   max-width: 1000px;
+   margin: 50px auto 100px;
+   }
+
+  .result-section h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 100px 0px 50px;
+  } 
+
+  .result-section p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  }
+
+  .result-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  }
+  
+  .pentagon-1{
+  height: 0;
+  width: 100px;  
+  border-top: 100px solid #FF6565;;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: relative;
+  }
+
+  .pentagon-1:before{
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid #FF6565;;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  bottom: 100px;
+  left: -40px;
+  }
+
+  .pentagon-2{
+    height: 0;
+    width: 100px;  
+    border-top: 100px solid #FF6565;;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+    }
+  
+    .pentagon-2:before{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid #FF6565;;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    bottom: 100px;
+    left: -40px;
+    }
+    
+  .pentagon-3{
+    height: 0;
+    width: 100px;  
+    border-top: 100px solid #FF6565;;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+    }
+      
+ .pentagon-3:before{
+   position: absolute;
+   content: "";
+   height: 0;
+   width: 0;
+   border-bottom: 100px solid #FF6565;;
+   border-left: 90px solid transparent;
+   border-right: 90px solid transparent;
+   bottom: 100px;
+   left: -40px;
+  } 
+ 
+  .pentagon-4{
+    height: 0;
+    width: 100px;  
+    border-top: 100px solid #FF6565;;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+    }
+  
+    .pentagon-4:before{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid #FF6565;;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    bottom: 100px;
+    left: -40px;
+    } 
+
+  .result-image{
+  position: relative;
+  }
+
+  .result-text{
+  color:white ;
+  position: absolute;
+  top: -150px;
+  padding-left: 10px;
+  max-width: 1000px;
+  text-align: center;
+  }
+
+  .result-text h4{
+  font-size: 30px;
+  font-weight: 18;
+  padding-bottom: 20px;
+  max-width: 1000px;
+  padding-top: 30px;
+  }
+
+  .result-text p{
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 1000px;
+  }
+
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin:5px auto 10px;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  .contact-contact h3{
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  
+  .contact-image{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 30px 50px;
+  color: black;
+  }
+
+  .contact-button{
+  padding: 15px 30px;
+  background-color:  #FF6565;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  max-width: 1000px;
+  }
+
+ .contact-button:hover{
+ opacity: 0.9;
+ }
+
+ .contact-button a{
+ color: white;
+ }
+
+ .footer-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 20px auto 20px;
+ background-color: #071629;
+ padding-bottom: 30px;
+ padding-top: 50px;
+ justify-content: space-around;
+ width: 100%;
+ }
+
+ .footer-logo{
+ max-width: 1000px;
+ padding-bottom: 30px;
+ }
+
+ .footer-headphones{
+ align-self: flex-end;
+ color: #ffffff;
+ max-width: 1000px;
+ }
+
+ .footer-image{
+ max-width: 1000px;
+ padding-bottom: 30px;
+ }
