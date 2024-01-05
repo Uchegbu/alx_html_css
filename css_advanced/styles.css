@@ -125,3 +125,41 @@ text-align: center;
 color: white;
 line-height: 27px;
 }
+
+.weather-section{
+display: flex;
+justify-content: center;
+align-items: center;
+background:  #C271FF;
+width: 1440px;
+height: 392px;
+gap: 53px;
+}
+
+.section-weather img{
+border-radius: 100%;
+}
+
+.weather blockquote{
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: white;
+line-height: 28px;
+padding-bottom: 30px;
+}
+
+.weather cite{
+font-size: 18px;
+font-weight: 300;
+font-family: sans-serif;
+color: white;
+line-height: 50px;
+}
+
+.weather p{
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 300;
+color: white;
+}
