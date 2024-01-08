@@ -275,3 +275,123 @@ font-style: normal;
 font-weight: 600;
 line-height: 27px;
 }
+
+.membership-section{
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+background: #071629;
+width: 1440px;
+height: 392px;
+padding-top: 100px;
+}
+
+.membership-section h3{
+color: #FFF;
+font-family: Source Sans Pro;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-bottom: 70px;
+}
+
+.membership-section span{
+color: #C271FF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.section-membership{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 50px;
+padding-bottom: 70px;
+}
+
+.smile h4{
+color: #FFF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+}
+
+.smile p{
+color: #FFF;
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.membership-button{
+padding: 20px 20px;
+font-size: 15px;
+font-weight: 400;
+border: none;
+border-radius: 70px;
+background: #C271FF;
+text-align: center;  
+}
+
+.membership-button a{
+color: white;
+text-decoration: none;
+}
+
+.section-faq{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 1440px;
+height: ;
+background: white;
+}
+
+.faq-section{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+
+.section-faq h2{
+color: #071629;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 60px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.work h4{
+color: #071629;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom:30px;
+}
+
+.work p{
+color: rgba(7, 22, 41, 0.50);
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 60px;
+}
