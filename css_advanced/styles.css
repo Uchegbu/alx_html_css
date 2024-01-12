@@ -395,3 +395,27 @@ font-weight: 400;
 line-height: 24px;
 padding-bottom: 60px;
 }
+
+.footer-section{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 1440px;
+height: 200px;
+background: #071629;
+gap: 300px;
+margin-bottom: 40px;
+}
+
+.footer-smile{
+display: flex;
+align-self: last baseline;
+color: #FFF;
+font-family: Source Sans Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.3517;
+padding-bottom: 30px;
+}
