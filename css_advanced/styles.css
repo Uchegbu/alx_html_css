@@ -14,7 +14,6 @@ align-content: center;
 text-align: center;
 width: 1103.408px;
 height: 29.461px;
-max-width: 1000px;
 margin: 0px auto;
 padding: 20px;
 }
@@ -354,7 +353,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 1440px;
-height: ;
 background: white;
 }
 
@@ -419,3 +417,115 @@ line-height: normal;
 opacity: 0.3517;
 padding-bottom: 30px;
 }
+
+.hamburger{
+ display: none;
+ cursor: pointer;
+}
+
+.bar{
+height: 10px;
+width: 80px;
+background: #fff;
+margin: 5px 0;
+opacity: 0.8;
+transition: all 0.3s ease-in-out;
+}
+
+.nav--open{
+ transform: translate(0) !important ;
+}
+
+.hamburger--open .bar:nth-child(1){
+ transform: translateY(9px) rotate(35deg);
+}
+
+.hamburger--open .bar:nth-child(2){
+ opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3){
+   transform: translateY(-9px) rotate(-30deg);
+}
+
+.nav{
+ transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:480px){
+   .nav{
+   position: fixed;
+   top: 60px;
+   right: 150px;
+   width: 100%;
+   padding: 10px 0 25px;
+   transform: translateX(-100%);
+   }
+
+   .nav-menu{
+   flex-direction: column;
+   align-items: center;
+   font-size: 24px;
+   font-weight: 700;
+   }
+
+   .hamburger{
+      display: block;
+   }
+   
+   .bar{
+   margin-right:100px;
+   }
+
+   .get-section{
+   padding: auto;
+  }
+
+   .learn-section h2{
+   padding-right: 70px;
+   }
+    
+   .section-learn{
+   margin-left: -150px;
+   }
+
+   .weather-section{
+   margin-left: -100px;
+   }
+
+   .weather blockquote{
+   max-width: 500px;
+   }
+
+
+   .popular-section h3{
+   margin-right: 100px;
+   }
+    
+   .video a{
+   left: -250px;
+   height: 50%;
+   width: 70%;
+  }
+
+   .section-popular{
+   margin-left: -70px;
+  }
+
+ .section-membership{
+ margin-left: -100px;
+ }
+
+ .membership-button{
+ margin-left: -70px;
+ }
+
+ .footer-logo{
+ margin-left: 100px;
+ }
+
+ .footer-icon{
+ margin-right: 100px;
+ }
+
+} 
